@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <nav className='navbar'>
         <ul>
-          <li><Link to="/" smooth={true} duration={1000}>HOME</Link></li>
+          <li><Link to="hero" smooth={true} duration={1000}>HOME</Link></li>
           <li><Link to="about" smooth={true} duration={1000}>ABOUT</Link></li>
           <li><Link to="services" smooth={true} duration={1000}>SERVICES</Link></li>
           <li><Link to="products" smooth={true} duration={1000}>PRODUCTS</Link></li>
@@ -22,7 +22,7 @@ const Header = () => {
         onClick={() => {
           scroller.scrollTo("contact", {
             smooth: true,
-            duration: 1000
+            duration: 1000,
           });
         }}
       >GET IN TOUCH</button>

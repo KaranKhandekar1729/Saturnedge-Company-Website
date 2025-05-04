@@ -12,10 +12,8 @@ const App = () => {
   return (
     <div>
     <div className="app">
-      <Header />
-      <div className='hero-content'>
-      <Hero />
-      </div>
+      <Header/>
+      <Element name='hero'><div className='hero-content'><Hero /></div></Element>
     </div>
       <Element name='about'><About /></Element>
       <Element name='services'><Services /></Element>

@@ -9,7 +9,7 @@ header {
   padding: 0 40px;
   position: fixed;
   top: 0;
-  background-color: transparent;
+  z-index: 999;
 }
 
 .logo {
@@ -23,13 +23,13 @@ header {
   display: flex;
 }
 
-.navbar ul li {
+.navbar ul li a{
   margin: 20px 20px;
   font-weight: 600;
   font-size: 13px;
 }
 
-.navbar ul li:hover{
+.navbar ul li a:hover{
   color: skyblue;
   transition: ease-in-out 0.3s;
 }
