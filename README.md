@@ -33,36 +33,6 @@ The layout features:
 
 ---
 
-## 📁 Project Structure
-
-react/
-├── public/
-├── src/
-│   ├── assets/            # Images & media assets
-│   ├── components/        # All React component files
-│   │   ├── About.jsx
-│   │   ├── App.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Header.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Products.jsx
-│   │   └── Services.jsx
-│   ├── styles/            # Component-wise vanilla CSS
-│   │   ├── about.css
-│   │   ├── app.css
-│   │   ├── footer.css
-│   │   ├── header.css
-│   │   ├── hero.css
-│   │   ├── products.css
-│   │   └── services.css
-│   ├── main.jsx           # Entry point for React
-│   └── index.css          # Global styles
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
----
-
 ## 🌍 Live Demo
 
 🔗 **Live Site:** [https://saturnedge.vercel.app/](https://saturnedge.vercel.app/)
