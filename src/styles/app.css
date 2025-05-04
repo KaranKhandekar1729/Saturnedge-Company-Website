@@ -1,5 +1,5 @@
 .app {
-    background-image: url('src/assets/hero-1.jpg');
+    background-image: url('../assets/hero-1.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
