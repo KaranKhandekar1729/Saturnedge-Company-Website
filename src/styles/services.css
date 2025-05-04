@@ -1,0 +1,34 @@
+.services-section {
+    height: 100%;
+    padding: 70px;
+    margin: 50px 30px;
+    border-radius: 70px;
+    color: #fff;
+    background: #f9f9f9;
+    background-image: url(https://ex-coders.com/html/exolax/assets/img/testimonial/bg.jpg);
+}
+
+.services-section p {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: skyblue;
+}
+
+.services-section ul li {
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid skyblue;
+    padding: 10px;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.services-section ul li:hover{
+    color: skyblue;
+    transition: ease-out 0.4s;
+}
+
+.services-section ul li:nth-child(2) {
+    font-style: italic;
+}

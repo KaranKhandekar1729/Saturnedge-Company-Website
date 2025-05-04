@@ -1,0 +1,43 @@
+.footer-section {
+    padding: 10px;
+    margin: 50px 30px;
+}
+
+.contact-and-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-and-details p {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.contact-and-details>div:nth-child(1)>p:nth-child(1){
+    text-transform: none;
+}
+
+.contact-and-details>div:nth-child(2)>p:nth-child(1) {
+    color: #b1b1b1;
+}
+
+.contact-and-details>div:nth-child(1) {
+    text-align: left;
+}
+
+.contact-and-details>div:nth-child(2) {
+    text-align: center;
+}
+
+.contact-and-details>div:nth-child(3) {
+    text-align: right;
+}
+
+.footer-company-name {
+    height: 40px;
+    font-size: 170px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}

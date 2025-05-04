@@ -1,0 +1,54 @@
+.product-section {
+    padding: 70px;
+    margin: 50px 30px;
+    border-radius: 70px;
+    background: #f9f9f9;
+}
+
+.product-section>p{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.cards {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+}
+
+
+.card {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 250px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.cards .card img {
+    width: 200px;
+    border-radius: 25px;
+}
+
+.cards .card p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.cards>p {
+    position: absolute;
+    top: 94%;
+    left: 20%;
+    font-size: 30px;
+}

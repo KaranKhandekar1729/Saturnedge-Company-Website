@@ -1,0 +1,68 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: #ffff;
+  align-items: center;
+  padding: 0 40px;
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+}
+
+.logo {
+  margin: 20px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: skyblue;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 20px 20px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.navbar ul li:hover{
+  color: skyblue;
+  transition: ease-in-out 0.3s;
+}
+
+.header-btn {
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  margin: 20px 20px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.header-btn:hover {
+  background: skyblue;
+  color: #000;
+  transition: ease-in-out 0.3s;
+}
+
+.hero-services-list {
+  position: absolute;
+  top: 0;
+  left: 75%;
+}
+
+.hero-services-list ul li {
+  font-size: 20px;
+  list-style-type: disc;
+  color: #b1b1b1;
+  margin: 20px;
+}
